@@ -1,4 +1,4 @@
-# pattern_recognition
+# pattern_recognition from Uwaterloo
 
 lab 1 investigates three areas: calculating orthogononal transformations, creating decision boundaries, and assigning classification errors. 
 
