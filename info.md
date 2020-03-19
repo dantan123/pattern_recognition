@@ -1,6 +1,6 @@
 Useful & interesting resources:
 
-Article on MLE of Normal Distribution:
+MLE Gaussian Distribution:
 https://towardsdatascience.com/maximum-likelihood-estimation-explained-normal-distribution-6207b322e47f
 
 Decision Trees in Machine Learning:
