@@ -5,3 +5,6 @@ https://towardsdatascience.com/maximum-likelihood-estimation-explained-normal-di
 
 Decision Trees in Machine Learning:
 https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
+
+Text Generation through RNN:
+https://www.tensorflow.org/tutorials/text/text_generation
