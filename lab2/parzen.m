@@ -23,34 +23,19 @@
 
 function [p,x,y] = parzen( data, res, win )
 
-% size(data,2) returns the number of columns in data
-% size(data,1) returns the number of rows in data
-% transpose data if the number of columns is greater than the number of
-% rows
 if (size(data,2)>size(data,1))
     data = data'; 
 end
 
-% if there are two columns in data, data is concatenated with ones of the
-% same size
 if (size(data,2)==2)
     data = [data ones(size(data))];
 end
 
-% number of points is equal to the total sum of rows(by taking the sum of
-% column 3 which is all ones)
 numpts = sum(data(:,3));
 
-% dl is defined as the lower bound (gives the minimum values in both
-% columns)
 dl = min(data(:,1:2));
 
-% dh is defined as the upper bound (gives the max values in both columns)
 dh = max(data(:,1:2));
-
-% if the res is concatenated
-% dl = [loxx lowy];
-% dh = [highx highy];
 
 if length(res)>1
     dl = [res(2) res(3)]; 
@@ -58,13 +43,10 @@ if length(res)>1
     res = res(1); 
 end
 
-% not too sure what nargin is 
 if (nargin == 2)
     win = 10; 
 end
 
-% if the difference between the upper bound and the lower bound divided by
-% the step size is greater than 1000; there there is an error (a check)
 if (max(dh-dl)/res>1000)
   error('Excessive data range relative to resolution.');
 end
@@ -83,14 +65,13 @@ end
 win = win / (res*res*sum(sum(win)));
 
 % p is made of columns of zero based on maxx, minx,maxy,miny,and step size
-% dh(2) - dl(2) = maxy - miny; similar for dh(1) - dl(1)
+% dh(2) - dl(2) = maxy - miny; similarly for dh(1) - dl(1)
 p = zeros(2+(dh(2)-dl(2))/res,2+(dh(1)-dl(1))/res);
 
 % find where data in column 1 is greater than minx
-% find where data in that column 1 less than maxx
-% find where data in that column 2 is greater than miny
-% find where data in that column 2 is less than maxy
-% use embedding in this case
+% find where data in column 1 less than maxx
+% find where data in column 2 is greater than miny
+% find where data in column 2 is less than maxy
 % find () returns a vector containing the linear indices of each nonzero
 % element in the array (or column in this case)
 fdl1 = find(data(:,1) > dl(1));
