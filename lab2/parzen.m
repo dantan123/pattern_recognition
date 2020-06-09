@@ -68,10 +68,6 @@ win = win / (res*res*sum(sum(win)));
 % dh(2) - dl(2) = maxy - miny; similarly for dh(1) - dl(1)
 p = zeros(2+(dh(2)-dl(2))/res,2+(dh(1)-dl(1))/res);
 
-% find where data in column 1 is greater than minx
-% find where data in column 1 less than maxx
-% find where data in column 2 is greater than miny
-% find where data in column 2 is less than maxy
 % find () returns a vector containing the linear indices of each nonzero
 % element in the array (or column in this case)
 fdl1 = find(data(:,1) > dl(1));
