@@ -1,6 +1,12 @@
 # Pattern Recognition Analysis:
 
-lab 1 involves calculating orthogononal transformations, creating decision boundaries, and assigning classification errors. Class A and B are grouped as case 1 and Class C,D, and E are grouped as case 2. Synthetic data are generated as bivariate normally distributed. Five distance classfiers are used: MED, GED, MAP,NN,and KNN.  The error analysis for each classifier is conducted by calculating the experimental error rate and generating a confusion matrix.
+# lab 1 
+
+lab 1 involves calculating orthogononal transformations, creating decision boundaries, and assigning classification errors. 5 classes are devised: A,B, C, D, E.
+
+Class A and B are grouped as case 1 and Class C,D, and E are grouped as case 2. Synthetic data are generated as bivariate normally distributed. Five distance classfiers are used: MED, GED, MAP,NN,and KNN.  The error analysis for each classifier is conducted by calculating the experimental error rate and generating a confusion matrix.
+
+# lab 2
 
 lab 2 involves model estimation and learning through both parametric and nonparametric methods using MLE and parzen windows (kernal density estimation).The following links describe the methodologies. 
 
