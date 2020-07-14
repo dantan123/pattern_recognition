@@ -4,7 +4,7 @@
 lab 1 involves calculating orthogononal transformations, creating decision boundaries, and assigning classification errors. 
 
 ## step 1:
-5 classes are devised: A,B, C, D, E. Class A and B are grouped as case 1 and Class C,D, and E are grouped as case 2. Each class contains the Gaussian bivariate distribution parameters: mean, covariance, and the number of samples. 
+5 classes are devised: A, B, C, D, E. Class A and B are grouped as case 1 and Class C, D, and E are grouped as case 2. Each class contains the Gaussian bivariate distribution parameters: mean, covariance, and the number of samples. 
 
 ## step 2:
 Synthetic data are generated as bivariate normally distributed using **randn()**. Contour and unit standard deviations for class A and B are plotted together on one plot and C, D, E on another plot. 
