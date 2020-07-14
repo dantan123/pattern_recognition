@@ -8,3 +8,6 @@ lab 2 involves model estimation and learning through both parametric and nonpara
 - https://people.missouristate.edu/songfengzheng/Teaching/MTH541/Lecture%20notes/MLE.pdf
 
 The dynamic time wapring project is a mini project where I used DTW algorithms to match predicted vs observed time series hydrologic data from a csv file. 
+
+# Acknowledgement: 
+The labs were done in collaboration and involved other contributors. 
