@@ -14,7 +14,7 @@ Five distance classfiers are used: **MED, GED, MAP,NN,and kNN**. For each case, 
 the MED, MICD and MAP boundaries are on the same plot, and the class samples with the NN, 5NN boundaries on a separate plot. 
 
 ## step 4:
-The experimental error rate and a confusion matrix for each classifier is created. What is a confusion matrix? The following link provides a good introduction:
+The experimental error rate and a confusion matrix are created for each classifier. What is a confusion matrix? The following link provides a good introduction:
 https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62.
 
 # Lab 2
