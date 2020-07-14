@@ -28,4 +28,4 @@ lab 2 involves model estimation and learning through both parametric and nonpara
 The dynamic time wapring project is a mini project where I used DTW algorithms to match predicted vs observed time series hydrologic data from a csv file. I also wrote a report about the use of DTW for hydrologic model calibration which you can find in the folder. 
 
 # Acknowledgement: 
-The labs were done in collaboration and involved other annonymous contributors. 
+The labs were done in collaboration as part of SYDE372 at UWaterloo and involved other annonymous contributors. 
