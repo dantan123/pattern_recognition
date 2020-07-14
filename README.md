@@ -4,14 +4,14 @@
 lab 1 involves calculating orthogononal transformations, creating decision boundaries, and assigning classification errors. 
 
 ## step 1:
-5 classes are devised: A,B, C, D, E. Class A and B are grouped as case 1 and Class C,D, and E are grouped as case 2. Each class contains the Gaussian bivariate distribution parameters: mean, covariance, and number of points. 
+5 classes are devised: A,B, C, D, E. Class A and B are grouped as case 1 and Class C,D, and E are grouped as case 2. Each class contains the Gaussian bivariate distribution parameters: mean, covariance, and the number of samples. 
 
 ## step 2:
 Synthetic data are generated as bivariate normally distributed using **randn()**. Contour and unit standard deviations for class A and B are plotted together on one plot and C, D, E on another plot. 
 
 ## step 3:
-Five distance classfiers are used: **MED, GED, MAP,NN,and kNN**. For each case, the class samples, unit standard deviation contours, and
-the MED, MICD and MAP boundaries on the same plot, and the class samples with the NN, 5NN boundaries on a separate plot. 
+Five distance classfiers are used: **MED, GED, MAP,NN,and kNN**. For each case, the class samples, unit standard deviation contours,
+the MED, MICD and MAP boundaries are on the same plot, and the class samples with the NN, 5NN boundaries on a separate plot. 
 
 ## step 4:
 The experimental error rate and a confusion matrix for each classifier is created. What is a confusion matrix? The following link provides a good introduction:
