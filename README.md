@@ -1,4 +1,4 @@
-# Pattern Recognition Analysis:
+# Pattern Recognition
 
 # lab 1 
 
