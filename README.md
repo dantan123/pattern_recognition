@@ -13,6 +13,7 @@ lab 2 involves model estimation and learning through both parametric and nonpara
 - https://milania.de/blog/Introduction_to_kernel_density_estimation_%28Parzen_window_method%29#mjx-eqn-eqParzenWindow_KernelDensity
 - https://people.missouristate.edu/songfengzheng/Teaching/MTH541/Lecture%20notes/MLE.pdf
 
+# Dynamic Time Warping
 The dynamic time wapring project is a mini project where I used DTW algorithms to match predicted vs observed time series hydrologic data from a csv file. 
 
 # Acknowledgement: 
