@@ -3,11 +3,14 @@
 # lab 1 
 lab 1 involves calculating orthogononal transformations, creating decision boundaries, and assigning classification errors. 
 
-## Step 1: 
-5 classes are devised: A,B, C, D, E. Class A and B are grouped as case 1 and Class C,D, and E are grouped as case 2. 
+## step 1:
+5 classes are devised: A,B, C, D, E. Class A and B are grouped as case 1 and Class C,D, and E are grouped as case 2. Each class contains the Gaussian bivariate distribution parameters: mean, covariance, and number of points. 
 
-## Step 2:
-Synthetic data are generated as bivariate normally distributed. Five distance classfiers are used: MED, GED, MAP,NN,and KNN.  The error analysis for each classifier is conducted by calculating the experimental error rate and generating a confusion matrix.
+## step 2:
+Synthetic data are generated as bivariate normally distributed using **randn()**. Five distance classfiers are used: **MED, GED, MAP,NN,and KNN**.  
+
+## step 3:
+The error analysis for each classifier is conducted by calculating the experimental error rate and generating a confusion matrix.
 
 # lab 2
 
