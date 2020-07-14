@@ -1,6 +1,6 @@
 # Pattern Recognition
 
-# lab 1 
+# Lab 1 
 lab 1 involves calculating orthogononal transformations, creating decision boundaries, and assigning classification errors. 
 
 ## step 1:
@@ -12,7 +12,7 @@ Synthetic data are generated as bivariate normally distributed using **randn()**
 ## step 3:
 The error analysis for each classifier is conducted by calculating the experimental error rate and generating a confusion matrix.
 
-# lab 2
+# Lab 2
 
 lab 2 involves model estimation and learning through both parametric and nonparametric methods using MLE and parzen windows (kernal density estimation).The following links describe the methodologies:
 
