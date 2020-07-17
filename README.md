@@ -22,13 +22,23 @@ After investigating the various classifications methods, the MAP classifier was 
 
 # Lab 2
 
-lab 2 involves model estimation and learning through both parametric and nonparametric methods using MLE and parzen windows (kernal density estimation).The following links describe the methodologies:
+lab 2 involves model estimation and learning through both parametric and nonparametric methods using MLE and parzen windows (kernal density estimation) as well as sequential discriminants. 
 
+## 2D parametric & non-parametric estimations:
+- For the parametric estimation, each cluster is assumed to be normally distributed. The mean & sample variance are determined and the ML (maximum liklihood) classification boundaries are plotted. The cluster data are superimposed with the classification boundaries on the plot.
+
+- For the non-parametric estimation, a Gaussian parzen window is used to estimate a PDF for each cluster. The ML classifier is applied to the estimated PDFs
+and the classfication boundaries are plotted together with the cluster data. 
+
+Those links explain the methodologies: 
 - https://milania.de/blog/Introduction_to_kernel_density_estimation_%28Parzen_window_method%29#mjx-eqn-eqParzenWindow_KernelDensity
 - https://people.missouristate.edu/songfengzheng/Teaching/MTH541/Lecture%20notes/MLE.pdf
 
+## Sequential Discriminants
+...
+
 # Dynamic Time Warping
-The dynamic time wapring project is a mini project where I used DTW algorithms to match predicted vs observed time series hydrologic data from a csv file. I also wrote a report about the use of DTW for hydrologic model calibration which you can find in the folder. 
+The dynamic time wapring project is a mini project during my research internship where I used DTW algorithms to match predicted vs observed time series hydrologic data from a csv file. I also wrote a report about the use of DTW for hydrologic model calibration which you can find in the folder. 
 
 # Acknowledgement: 
 The labs were done in collaboration as part of SYDE372 at UWaterloo and involved other annonymous contributors. 
