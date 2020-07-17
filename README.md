@@ -17,6 +17,9 @@ the MED, MICD and MAP boundaries are on the same plot, and the class samples wit
 The experimental error rate and a confusion matrix are created for each classifier. What is a confusion matrix? The following link provides a good introduction:
 https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62.
 
+## Key Observations:
+After investigating the various classifications methods, the MAP classifier was found to perform the best out of all the classifiers. This is expected since MAP accounts for both probability and distance measures. The NN and kNN classifiers are generally accurate around decision boundaries. However, they tend to overfit the test data and are sensitive to outliers as well as computationally expensive.
+
 # Lab 2
 
 lab 2 involves model estimation and learning through both parametric and nonparametric methods using MLE and parzen windows (kernal density estimation).The following links describe the methodologies:
