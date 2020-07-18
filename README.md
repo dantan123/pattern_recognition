@@ -3,7 +3,7 @@
 # Dynamic Time Warping
 The dynamic time wapring project is a mini project during my research internship where I explored R's DTW library and delved into the algorithms for matching predicted vs observed time series hydrologic data in the csv format. I even wrote a report about the use of DTW for hydrologic model calibration which you can find in the folder. Enjoy :)!
 
-# Lab 1 
+# Project 1: Clusters & Classification Boundaries
 lab 1 involves calculating orthogononal transformations, creating decision boundaries, and assigning classification errors. 
 
 ## step 1:
@@ -23,7 +23,7 @@ https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62.
 ## Key Observations:
 After investigating the various classifications methods, the MAP classifier was found to perform the best out of all the classifiers. This is expected since MAP accounts for both probability and distance measures. The NN and kNN classifiers are generally accurate around decision boundaries. However, they tend to overfit the test data and are sensitive to outliers as well as computationally expensive.
 
-# Lab 2
+# Project 2: Model Estimation & Discriminant Functions
 
 lab 2 involves model estimation and learning through both parametric and nonparametric methods using MLE and parzen windows (kernal density estimation) as well as sequential discriminants. 
 
