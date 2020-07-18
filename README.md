@@ -48,8 +48,10 @@ The following algorithm is used:
 - naB = #times G classifies a point from a as class B
 - nbA = #times G classifies a point from b as class A
 5. If neither naB nor nbA are equal to 0, return to step 2.
-6. The discrimiant is 0 and it is saved as
-- Gj = G, naB,j = naB, nbA,j = nbA, j = j + 1
+6. If the discrimiant is 0, j is incremented and
+- Gj = G, 
+- naB,j = naB, 
+- nbA,j = nbA, 
 7. If naB = 0, remove all points from b that G classifies as B.
 8. If nbA = 0, remove all points from a that G classifies as A. 
 9. If a and b still contain points, return to step 2. 
