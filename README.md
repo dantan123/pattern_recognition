@@ -45,11 +45,11 @@ The following algorithm is used:
 2. Randomly select one point from A and one point from B
 3. Create a discriminant G using MED with two points as prototypes
 4. Based on the data in a and b, construct the confusion matrices where 
-    naB = #times G classifies a point from a as class B
-    nbA = #times G classifies a point from b as class A
+- naB = #times G classifies a point from a as class B
+- nbA = #times G classifies a point from b as class A
 5. If neither naB nor nbA are equal to 0, return to step 2.
 6. The discrimiant is 0 and it is saved as
-    Gj = G, naB,j = naB, nbA,j = nbA, j = j + 1
+- Gj = G, naB,j = naB, nbA,j = nbA, j = j + 1
 7. If naB = 0, remove all points from b that G classifies as B.
 8. If nbA = 0, remove all points from a that G classifies as A. 
 9. If a and b still contain points, return to step 2. 
