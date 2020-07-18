@@ -38,7 +38,21 @@ Those links explain the methodologies:
 - https://people.missouristate.edu/songfengzheng/Teaching/MTH541/Lecture%20notes/MLE.pdf
 
 ## Sequential Discriminants
-Point
+Points are stored in the format of (x,y) format. For a given discriminant G, there is the probability that P(true class is Ci|G says Ck). The idea is to have at least one class Ci close to the probability of being 1. 
+
+The following algorithm is used:
+1. Let a and b represent points in classes A and B. Let j = 1. 
+2. Randomly select one point from A and one point from B
+3. Create a discriminant G using MED with two points as prototypes
+4. Based on the data in a and b, construct the confusion matrices where 
+    naB = #times G classifies a point from a as class B
+    nbA = #times G classifies a point from b as class A
+5. If neither naB nor nbA are equal to 0, return to step 2.
+6. The discrimiant is 0 and it is saved as
+    Gj = G, naB,j = naB, nbA,j = nbA, j = j + 1
+7. If naB = 0, remove all points from b that G classifies as B.
+8. If nbA = 0, remove all points from a that G classifies as A. 
+9. If a and b still contain points, return to step 2. 
 
 # Acknowledgement: 
 The projects were done in collaboration as part of SYDE372 at UWaterloo and involved other annonymous contributors. 
