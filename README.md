@@ -54,5 +54,11 @@ The following algorithm is used:
 8. If nbA = 0, remove all points from a that G classifies as A. 
 9. If a and b still contain points, return to step 2. 
 
+At this point, a sequence of discriminants are developed, each classifying part of the problem perfectly. To construct the overall classifier, a similar algorithm is used: 
+1. Let j = 1
+2. If Gj classifies x as class B and naB,j = 0, class B is perfectly classified. 
+3. If Gj classifies x as class A and nbA,j = 0, class A is perfectly classified. 
+4. Otherwise j = j + 1 and go back to step 2.
+
 # Acknowledgement: 
 The projects were done in collaboration as part of SYDE372 at UWaterloo and involved other annonymous contributors. 
