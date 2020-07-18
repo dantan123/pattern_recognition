@@ -48,7 +48,7 @@ The following algorithm is used:
 - naB = #times G classifies a point from a as class B
 - nbA = #times G classifies a point from b as class A
 5. If neither naB nor nbA are equal to 0, return to step 2.
-6. If the discrimiant is 0, j is incremented and
+6. If either is naB or nbA is equal to 0, j is incremented and this discriminant is saved:
 - Gj = G, 
 - naB,j = naB, 
 - nbA,j = nbA, 
@@ -56,7 +56,7 @@ The following algorithm is used:
 8. If nbA = 0, remove all points from a that G classifies as A. 
 9. If a and b still contain points, return to step 2. 
 
-At this point, a sequence of discriminants are developed, each classifying part of the problem perfectly. To construct the overall classifier, a similar algorithm is used: 
+At this point, a sequence of discriminants are developed, each classifying part of the problem perfectly. To construct the overall classifier, the following algorithm is used: 
 1. Let j = 1
 2. If Gj classifies x as class B and naB,j = 0, class B is perfectly classified. 
 3. If Gj classifies x as class A and nbA,j = 0, class A is perfectly classified. 
