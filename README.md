@@ -41,4 +41,4 @@ Those links explain the methodologies:
 Point
 
 # Acknowledgement: 
-The labs were done in collaboration as part of SYDE372 at UWaterloo and involved other annonymous contributors. 
+The projects were done in collaboration as part of SYDE372 at UWaterloo and involved other annonymous contributors. 
