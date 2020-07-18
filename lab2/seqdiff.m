@@ -26,7 +26,6 @@ n_ab = ones(J,1);
 n_ba = ones(J,1);
 
 for j=1:J
-    j
     while(n_ab(j) > 0 && n_ba(j) > 0 && num_tries(j) <= limit && ~isempty(set_a) && ~isempty(set_b))       
         r1 = randi([1 length(set_a)]);
         r2 = randi([1 length(set_b)]);
