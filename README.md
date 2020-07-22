@@ -1,7 +1,7 @@
 # Pattern Recognition
 
 # Dynamic Time Warping
-The dynamic time wapring project is a mini project during my research internship where I explored R's DTW library and delved into the algorithms for matching predicted vs observed time series hydrologic data in the csv format. I even wrote a report about the use of DTW for hydrologic model calibration which you can find in the folder.
+The dynamic time wapring project is a mini project during my research internship where I explored R's DTW library and delved into the algorithms for matching predicted vs observed time series hydrologic data in the csv format. I even wrote a **report** about the use of DTW for hydrologic model calibration which you can find in the folder.
 
 # Project 1: Clusters & Classification Boundaries
 lab 1 involves calculating orthogononal transformations, creating decision boundaries, and assigning classification errors. 
